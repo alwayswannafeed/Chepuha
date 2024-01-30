@@ -1,5 +1,5 @@
 def Privet():
-    return "What am I doing in MechMat???"
+    return "What am I doing in MechMat?"
 def Poka():
     return "2+2=integral"
 def diffr_vector(v1,v2):
