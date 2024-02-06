@@ -1,3 +1,4 @@
+from math import sqrt
 def Privet():
     return "What am I doing in MechMat?"
 def Poka():
@@ -8,3 +9,11 @@ def diffr_vector(v1,v2):
     for i in range(n):
         V[i]=v1[i]-v2[i]
     return V
+def norma(v):
+    normalno=0
+    for i in range(len(v)):
+        normalno+=i**2
+    normalno=sqrt(normalno)
+    return normalno
+def norma2(v):
+    return max(v)
