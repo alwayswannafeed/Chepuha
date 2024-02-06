@@ -17,3 +17,5 @@ def norma(v):
     return normalno
 def norma2(v):
     return max(v)
+def norma3(v):
+    return sum(v)
